@@ -7,6 +7,5 @@
 4. 分頁功能
 5. 置頂按鈕
 
-## [DEMO](https://tommm2.github.io/Travel/)
 
 ![專案快照](https://i.postimg.cc/xTk0nwc4/image.jpg)

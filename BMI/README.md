@@ -5,6 +5,5 @@
 2. 當計算出BMI 為過重、過輕、適中時，會改變按鈕樣式
 3. 一鍵清除鍵
 
-## [DEMO](https://tommm2.github.io/BMI/)
 
 ![專案快照](https://i.postimg.cc/ZKpL9VCY/image.jpg)
