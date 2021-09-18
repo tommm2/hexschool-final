@@ -1,0 +1,395 @@
+/* reset.css */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* main.css */
+.HexSchoolWebpage {
+	width: 1050px;
+	margin: auto;
+}
+
+.website {
+	background: #f6f6f6;
+	display: flex;
+	justify-content: flex-end;
+	padding: 10px;
+}
+
+.website li {
+	margin-left: 10px;
+}
+
+/*.fb與.twitter之間的線條*/
+.website .fb::after {
+	content: "|";
+	color: grey;
+	margin-left: 8px;
+}
+
+.website .fb a {
+
+	text-decoration: none;
+	color: #8b9cc2;
+}
+
+/*a連結動畫修改*/
+.website .fb a:hover {
+	transition: border-bottom 0.2s;
+	border-bottom: 4px solid #8b9cc2;
+
+}
+
+.website .twitter a {
+	text-decoration: none;
+	color: #62c8f0;
+}
+
+/*a連結動畫修改*/
+.website .twitter a:hover {
+	transition: border-bottom 0.2s;
+	border-bottom: 4px solid #62c8f0;
+
+}
+
+.menu {
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu h1 a {
+	display: block;
+	background-image: url('https://i.postimg.cc/wTvYJtzX/logo.png');
+	height: 50px;
+	width: 195px;
+	text-indent: 101%;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.menu ul {
+	display: flex;
+	align-items: center;
+}
+
+.menu ul li a {
+	margin-left: 50px;
+	text-decoration: none;
+	color: #66e0c2;
+}
+
+/*a連結動畫修改*/
+.menu ul li a:hover {
+	transition: border-bottom 0.2s;
+	border-bottom: 4px solid #66e0c2;
+}
+
+/*.image上的字修改*/
+.image {
+	position: relative;
+
+}
+
+.image-text {
+	box-sizing: border-box;
+	line-height: 1.5;
+	width: 1050px;
+	padding: 30px 0 30px 30px;
+	opacity: 80%;
+	position: absolute;
+	color: #ffff;
+	font-size: 30px;
+	background-color: #1e1e1d;
+	top: 30%;
+
+}
+
+/*.image上的字修改*/
+.introduction {
+	display: flex;
+	padding-top: 10px;
+}
+
+.introduction .item {
+	width: 300px;
+	margin: 0 5px;
+	text-align: left;
+	border: 1px solid #f1f1f1;
+	box-shadow: 0 2px 2px #e4e4e4;
+	padding: 20px;
+}
+
+.introduction .item h4 {
+	text-align: center;
+	display: block;
+	font-size: 24px;
+	font-weight: 1000;
+	color: #5c5c5c;
+	margin-bottom: 10px;
+}
+
+.introduction .item p {
+	line-height: 1.5;
+}
+
+.introduction .item .dot {
+	padding-left: 20px;
+}
+
+/* 已用成list-style:disc 來呈現代替直接貼上文字． */
+.introduction .item .dot li {
+	list-style: disc;
+	line-height: 1.5;
+}
+
+
+/* 已將border設定刪掉 */
+.course table {
+	width: 900px;
+	text-align: left;
+
+}
+
+.course h3 {
+	padding: 50px 0 30px 0;
+	display: block;
+	font-size: 30px;
+	font-weight: 1000;
+	text-align: center;
+	color: #333333;
+}
+
+.course tr {
+	border-bottom: 1px solid #dddddd;
+}
+
+.course th {
+	background: #f7f7f7;
+	color: #333333;
+	font-weight: 1000;
+	padding: 10px;
+}
+
+.course td {
+	padding: 10px;
+}
+
+.course .focus {
+	color: #77d0ba;
+	font-weight: 800;
+}
+
+/* 已經寬度刪除 */
+.form {
+	margin: 50px 0 10px 0;
+	padding: 25px;
+	background: linear-gradient(#00694f, #00936e);
+}
+
+.form h3 {
+	display: block;
+	line-height: 1.5;
+	font-size: 30px;
+	font-weight: 900;
+	color: #ffffff;
+	text-align: center;
+	margin-bottom: 20px;
+
+}
+
+.form .data {
+	display: flex;
+
+}
+
+/* 已用block修改 */
+.form label {
+	display: block;
+	color: #ffffff;
+
+}
+
+/* 已用width設定寬度 */
+.form textarea {
+	border-radius: 5px;
+	width: 500px;
+}
+
+.form input {
+	display: block;
+	margin-bottom: 15px;
+	border-radius: 5px;
+	border: none;
+}
+
+/* 已將float改成margin-left */
+.form form input[type="submit"] {
+
+	margin-left: auto;
+}
+
+/* 已增加HOVER效果 */
+.form form input[type="submit"]:hover {
+	cursor: pointer;
+	background-color: #77d0ba;
+	color: #ffffff;
+}
+
+.form form {
+	padding-left: 40px;
+
+}
+
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 0;
+}
+
+.footer ul li a {
+	color: #e12d80;
+	text-decoration: none;
+}
+
+.footer ul li a {
+	color: #e12d80;
+	text-decoration: none;
+}
+
+/* 已增加hover效果 */
+.footer ul li a:hover {
+	color: #77d0ba;
+}
+
+.footer ul li span {
+	color: #858585;
+}

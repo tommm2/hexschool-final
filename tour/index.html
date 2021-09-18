@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="style.css">
+  <title>高雄旅遊資訊</title>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>高雄旅遊資訊</h1>
+      <select id="select">
+        <option value="" selected disabled>--請選擇行政區--</option>
+      </select>
+      <div class="hot-area">
+        <h3>熱門行政區</h3>
+        <div class="btn-group">
+          <button value="苓雅區" class="hot1">苓雅區</button>
+          <button value="三民區" class="hot2">三民區</button>
+          <button value="美濃區" class="hot3">美濃區</button>
+          <button value="大樹區" class="hot4">大樹區</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="middle-line">
+      <img src="https://i.postimg.cc/bNh8wcSf/icons-down.png" alt="middle-img">
+    </div>
+
+    <h2 id="area-title">全部區域</h2>
+
+    <div id="content" class="content"></div>
+    <ul class="pagination" id="pagination"></ul>
+    <div class="footer">
+      <h3>高雄旅遊業</h3>
+      <p>資料來源 : 高雄市政府</p>
+    </div>
+
+  </div>
+  <!-- GO to top -->
+  <div id="go-top" class="go-top">
+    <i class="fas fa-chevron-up"></i>
+  </div>
+  <!-- loading -->
+  <div class="loading" id="loading">
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
